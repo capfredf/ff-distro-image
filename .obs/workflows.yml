@@ -2,6 +2,6 @@ rebuild_master:
   steps:
     - rebuild_package:
         project: home:capfredf
-        package: ff-distro-image
+        package: ff-distrobox-image
   filters:
     event: push
