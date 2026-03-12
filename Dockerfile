@@ -17,7 +17,7 @@ LABEL org.opencontainers.image.created="%BUILDTIME%"
 
 # Fill the image with content and clean the cache(s)
 # For base
-RUN zypper --non-interactive in racket htop ripgrep git tig vim tmux make curl wl-clipboard fish libgccjit-devel libgccjit0 gcc-c++ fd man-pages-posix coreutils-doc emacs-x11 opam gsettings-desktop-schemas
+RUN zypper --non-interactive in racket htop ripgrep git vim tig tmux make curl wl-clipboard fish libgccjit-devel libgccjit0 gcc-c++ fd man-pages-posix coreutils-doc emacs-x11 opam gsettings-desktop-schemas
 
 # For python
 RUN zypper --non-interactive in pyenv python311-virtualenv python311-pipx python311-Pygments

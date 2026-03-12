@@ -5,8 +5,8 @@
     - htop
     - ripgrep
     - git
-    - tig
     - vim
+    - tig
     - tmux
     - make
     - curl
@@ -74,3 +74,5 @@
     - texlive-latexmk
     - perl-Parse-RecDescent
 
+ 
+ 
