@@ -1,0 +1,27 @@
+#!/bin/env racket
+#lang racket
+(require racket/runtime-path)
+(require yaml)
+(define-runtime-path pkg-file "pkgs.yml")
+(define-runtime-path dockerfile "Dockerfile")
+(define-runtime-path dockerfile-header "Dockerfile.template")
+(define data
+  (with-input-from-file pkg-file
+    (lambda ()
+      (read-yaml))))
+
+(define (zypper-in pkgs)
+  (printf "RUN zypper --non-interactive in ~a\n" (string-join pkgs)))
+
+(with-output-to-file
+  dockerfile
+  (lambda ()
+    (display (port->string (open-input-file dockerfile-header)))
+    (for ([col (in-list data)])
+      (define name (hash-ref col "name"))
+      (printf "# For ~a\n" name)
+      (define pkgs (hash-ref col "pkgs"))
+      (zypper-in pkgs)
+      (newline))
+    (printf "RUN zypper clean -a\n"))
+  #:exists 'replace)
