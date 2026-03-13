@@ -1,7 +1,7 @@
-# rebuild_master:
-#   steps:
-#     - rebuild_package:
-#         project: home:capfredf
-#         package: ff-distrobox-image
-#   filters:
-#     event: push
+workflow:
+  steps:
+    - trigger_services:
+        project: home:capfredf
+        package: ff-distrobox-image
+  filters:
+    event: push
