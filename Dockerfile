@@ -31,4 +31,7 @@ RUN zypper --non-interactive in hunspell enchant emacs-jinx gtk2-metatheme-adwai
 # For texlive
 RUN zypper --non-interactive in texlive-collection-basic texlive-bbm texlive-wrapfig texlive-ulem texlive-capt-of texlive-minted texlive-mathtools texlive-collection-fontsextra texlive-savesym texlive-xargs texlive-mathpartir texlive-pgfplots texlive-cancel texlive-luacode texlive-luacode texlive-biber texlive-cleveref texlive-synctex-bin texlive-enumitem texlive-ebproof texlive-subfiles texlive-todonotes texlive-latexmk perl-Parse-RecDescent texlive-tikz-cd
 
+# For other
+RUN zypper --non-interactive in entr
+
 RUN zypper clean -a

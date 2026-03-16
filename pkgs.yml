@@ -15,3 +15,5 @@
     texlive-ebproof, texlive-subfiles, texlive-todonotes, texlive-latexmk, perl-Parse-RecDescent,
     texlive-tikz-cd]
   name: texlive
+- pkgs: [entr]
+  name: other
