@@ -13,7 +13,8 @@
     texlive-xargs, texlive-mathpartir, texlive-pgfplots, texlive-cancel, texlive-luacode,
     texlive-luacode, texlive-biber, texlive-cleveref, texlive-synctex-bin, texlive-enumitem,
     texlive-ebproof, texlive-subfiles, texlive-todonotes, texlive-latexmk, perl-Parse-RecDescent,
-    texlive-tikz-cd, texlive-stmaryrd, texlive-totpages, texlive-hyperxmp, texlive-comment]
+    texlive-tikz-cd, texlive-stmaryrd, texlive-totpages, texlive-hyperxmp, texlive-comment,
+    texlive-pbalance]
   name: texlive
 - pkgs: [entr]
   name: other
