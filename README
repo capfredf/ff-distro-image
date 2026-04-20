@@ -1,3 +1,4 @@
+# Daily Container Environment
 This template is the ideal starting ground to build a single-purpose container using Dockerfile.
 
 Just fill out the places indicated by the comments in the Dockerfile and _service files to get
