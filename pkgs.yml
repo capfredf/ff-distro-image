@@ -16,5 +16,5 @@
     texlive-tikz-cd, texlive-stmaryrd, texlive-totpages, texlive-hyperxmp, texlive-comment,
     texlive-pbalance, texlive-tex-gyre-math]
   name: texlive
-- pkgs: [entr]
+- pkgs: [entr, ncurses-devel]
   name: other
