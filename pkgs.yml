@@ -73,6 +73,3 @@
   - entr
   - ncurses-devel
   name: other
-- pkgs:
-  - ncurses-devel
-  name: other
