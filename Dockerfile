@@ -34,4 +34,7 @@ RUN zypper --non-interactive in texlive-collection-basic texlive-bbm texlive-wra
 # For other
 RUN zypper --non-interactive in entr ncurses-devel
 
+# For other
+RUN zypper --non-interactive in ncurses-devel
+
 RUN zypper clean -a
