@@ -69,6 +69,7 @@
   - texlive-pbalance
   - texlive-tex-gyre-math
   - texlive-hardwrap
+  - texlive-babel-english
   name: texlive
 - pkgs:
   - entr
