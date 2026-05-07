@@ -73,6 +73,7 @@
   - texlive-textcase
   - texlive-doclicense
   - texlive-multirow
+  - texlive-threeparttable
   name: texlive
 - pkgs:
   - entr
