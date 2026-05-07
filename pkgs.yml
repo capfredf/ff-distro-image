@@ -68,6 +68,7 @@
   - texlive-comment
   - texlive-pbalance
   - texlive-tex-gyre-math
+  - texlive-hardwrap
   name: texlive
 - pkgs:
   - entr
