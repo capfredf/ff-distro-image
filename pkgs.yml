@@ -72,6 +72,7 @@
   - texlive-babel-english
   - texlive-textcase
   - texlive-doclicense
+  - texlive-multirow
   name: texlive
 - pkgs:
   - entr
