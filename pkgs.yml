@@ -74,6 +74,7 @@
   - texlive-doclicense
   - texlive-multirow
   - texlive-threeparttable
+  - texlive-datetime2
   name: texlive
 - pkgs:
   - entr
