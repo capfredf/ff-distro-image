@@ -29,7 +29,7 @@ RUN zypper --non-interactive in gmp-devel zlib-devel
 RUN zypper --non-interactive in hunspell enchant emacs-jinx gtk2-metatheme-adwaita
 
 # For texlive
-RUN zypper --non-interactive in texlive-collection-basic texlive-bbm texlive-wrapfig texlive-ulem texlive-capt-of texlive-minted texlive-mathtools texlive-collection-fontsextra texlive-savesym texlive-xargs texlive-mathpartir texlive-pgfplots texlive-cancel texlive-luacode texlive-luacode texlive-biber texlive-cleveref texlive-synctex-bin texlive-enumitem texlive-ebproof texlive-subfiles texlive-todonotes texlive-latexmk perl-Parse-RecDescent texlive-tikz-cd texlive-stmaryrd texlive-totpages texlive-hyperxmp texlive-comment texlive-pbalance texlive-tex-gyre-math texlive-hardwrap texlive-babel-english texlive-textcase
+RUN zypper --non-interactive in texlive-collection-basic texlive-bbm texlive-wrapfig texlive-ulem texlive-capt-of texlive-minted texlive-mathtools texlive-collection-fontsextra texlive-savesym texlive-xargs texlive-mathpartir texlive-pgfplots texlive-cancel texlive-luacode texlive-luacode texlive-biber texlive-cleveref texlive-synctex-bin texlive-enumitem texlive-ebproof texlive-subfiles texlive-todonotes texlive-latexmk perl-Parse-RecDescent texlive-tikz-cd texlive-stmaryrd texlive-totpages texlive-hyperxmp texlive-comment texlive-pbalance texlive-tex-gyre-math texlive-hardwrap texlive-babel-english texlive-textcase texlive-doclicense
 
 # For other
 RUN zypper --non-interactive in entr ncurses-devel

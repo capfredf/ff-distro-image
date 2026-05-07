@@ -71,6 +71,7 @@
   - texlive-hardwrap
   - texlive-babel-english
   - texlive-textcase
+  - texlive-doclicense
   name: texlive
 - pkgs:
   - entr
