@@ -70,6 +70,7 @@
   - texlive-tex-gyre-math
   - texlive-hardwrap
   - texlive-babel-english
+  - texlive-textcase
   name: texlive
 - pkgs:
   - entr
