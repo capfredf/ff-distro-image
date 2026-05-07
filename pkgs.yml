@@ -75,6 +75,7 @@
   - texlive-multirow
   - texlive-threeparttable
   - texlive-datetime2
+  - texlive-fnpct
   name: texlive
 - pkgs:
   - entr
