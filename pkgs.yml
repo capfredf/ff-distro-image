@@ -78,6 +78,7 @@
   - texlive-fnpct
   - texlive-beamer
   - texlive-beamertheme-metropolis
+  - texlive-tikzmark
   name: texlive
 - pkgs:
   - entr
