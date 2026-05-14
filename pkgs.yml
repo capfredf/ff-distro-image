@@ -76,6 +76,7 @@
   - texlive-threeparttable
   - texlive-datetime2
   - texlive-fnpct
+  - texlive-beamer
   name: texlive
 - pkgs:
   - entr
