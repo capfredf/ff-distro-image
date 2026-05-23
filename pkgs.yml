@@ -80,6 +80,7 @@
   - texlive-beamertheme-metropolis
   - texlive-tikzmark
   - texlive-wasysym
+  - texlive-hyphenat
   name: texlive
 - pkgs:
   - entr
