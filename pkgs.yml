@@ -79,6 +79,7 @@
   - texlive-beamer
   - texlive-beamertheme-metropolis
   - texlive-tikzmark
+  - texlive-wasysym
   name: texlive
 - pkgs:
   - entr
