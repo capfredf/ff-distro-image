@@ -81,6 +81,7 @@
   - texlive-tikzmark
   - texlive-wasysym
   - texlive-hyphenat
+  - texlive-parskip
   name: texlive
 - pkgs:
   - entr
