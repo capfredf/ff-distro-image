@@ -86,4 +86,5 @@
 - pkgs:
   - entr
   - ncurses-devel
+  - typst
   name: other
