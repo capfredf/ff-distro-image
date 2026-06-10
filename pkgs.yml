@@ -82,6 +82,7 @@
   - texlive-wasysym
   - texlive-hyphenat
   - texlive-parskip
+  - texlive-tikzfill
   name: texlive
 - pkgs:
   - entr
