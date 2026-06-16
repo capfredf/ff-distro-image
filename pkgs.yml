@@ -83,6 +83,7 @@
   - texlive-hyphenat
   - texlive-parskip
   - texlive-tikzfill
+  - texlive-thmtools
   name: texlive
 - pkgs:
   - entr
