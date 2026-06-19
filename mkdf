@@ -29,7 +29,7 @@
       (define pkgs (hash-ref col "pkgs"))
       (zypper-in pkgs)
       (when (< idx (sub1 (length data)))
-        (printf "\\\n"))
+        (printf "\\"))
       (newline))
     (printf "RUN zypper clean -a\n"))
   #:exists 'replace)
