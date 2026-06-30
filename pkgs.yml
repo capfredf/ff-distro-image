@@ -84,10 +84,10 @@
   - texlive-parskip
   - texlive-tikzfill
   - texlive-thmtools
+  - texlive-acmart
   name: texlive
 - pkgs:
   - entr
   - ncurses-devel
   - typst
-  - zig
   name: other
