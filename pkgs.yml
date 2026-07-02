@@ -85,6 +85,7 @@
   - texlive-tikzfill
   - texlive-thmtools
   - texlive-acmart
+  - texlive-epigraph
   name: texlive
 - pkgs:
   - entr

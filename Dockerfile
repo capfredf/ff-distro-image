@@ -35,7 +35,7 @@ RUN zypper --non-interactive in\
     texlive-mathpartir texlive-pgfplots texlive-cancel texlive-luacode texlive-luacode texlive-biber texlive-cleveref texlive-synctex-bin texlive-enumitem texlive-ebproof \
     texlive-subfiles texlive-todonotes texlive-latexmk perl-Parse-RecDescent texlive-tikz-cd texlive-stmaryrd texlive-totpages texlive-hyperxmp texlive-comment texlive-pbalance \
     texlive-tex-gyre-math texlive-hardwrap texlive-babel-english texlive-textcase texlive-doclicense texlive-multirow texlive-threeparttable texlive-datetime2 texlive-fnpct texlive-beamer \
-    texlive-beamertheme-metropolis texlive-tikzmark texlive-wasysym texlive-hyphenat texlive-parskip texlive-tikzfill texlive-thmtools texlive-acmart \
+    texlive-beamertheme-metropolis texlive-tikzmark texlive-wasysym texlive-hyphenat texlive-parskip texlive-tikzfill texlive-thmtools texlive-acmart texlive-epigraph \
 
     # For other
     entr ncurses-devel typst 
