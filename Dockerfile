@@ -20,18 +20,23 @@ RUN zypper --non-interactive in\
     # For base
     racket htop ripgrep git vim tig tmux make curl wl-clipboard \
     fish libgccjit-devel libgccjit0 gcc-c++ fd man-pages-posix coreutils-doc emacs-x11 opam gsettings-desktop-schemas \
+
     # For python
     pyenv python311-virtualenv python311-pipx python311-Pygments \
+
     # For agda
     gmp-devel zlib-devel \
+
     # For emacs
     hunspell enchant emacs-jinx gtk2-metatheme-adwaita \
+
     # For texlive
     texlive-collection-basic texlive-bbm texlive-wrapfig texlive-ulem texlive-capt-of texlive-minted texlive-mathtools texlive-collection-fontsextra texlive-savesym texlive-xargs \
     texlive-mathpartir texlive-pgfplots texlive-cancel texlive-luacode texlive-luacode texlive-biber texlive-cleveref texlive-synctex-bin texlive-enumitem texlive-ebproof \
     texlive-subfiles texlive-todonotes texlive-latexmk perl-Parse-RecDescent texlive-tikz-cd texlive-stmaryrd texlive-totpages texlive-hyperxmp texlive-comment texlive-pbalance \
     texlive-tex-gyre-math texlive-hardwrap texlive-babel-english texlive-textcase texlive-doclicense texlive-multirow texlive-threeparttable texlive-datetime2 texlive-fnpct texlive-beamer \
-    texlive-beamertheme-metropolis texlive-tikzmark texlive-wasysym texlive-hyphenat texlive-parskip texlive-tikzfill texlive-thmtools \
+    texlive-beamertheme-metropolis texlive-tikzmark texlive-wasysym texlive-hyphenat texlive-parskip texlive-tikzfill texlive-thmtools texlive-acmart texlive-epigraph \
+
     # For other
-    entr ncurses-devel typst zig 
+    entr ncurses-devel typst 
 RUN zypper clean -a
