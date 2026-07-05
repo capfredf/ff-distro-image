@@ -30,5 +30,5 @@
       (zypper-in pkgs)
       (if (< idx (sub1 (length data)))
           (printf "\\\n")
-          (printf "RUN zypper clean -a\n"))))
+          (printf "&& zypper clean -a\n"))))
   #:exists 'replace)
