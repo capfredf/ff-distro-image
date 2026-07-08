@@ -22,9 +22,9 @@
   name: base
 - pkgs:
   - pyenv
-  - python311-virtualenv
-  - python311-pipx
-  - python311-Pygments
+  - python314-virtualenv
+  - python314-pipx
+  - python314-Pygments
   name: python
 - pkgs:
   - gmp-devel
@@ -32,7 +32,8 @@
   name: agda
 - pkgs:
   - hunspell
-  - enchant
+  - libenchant-2-2
+  - enchant-2-backend-hunspell
   - emacs-jinx
   - gtk2-metatheme-adwaita
   name: emacs

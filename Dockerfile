@@ -21,11 +21,11 @@ RUN env ZYPP_PCK_PRELOAD=1 zypper --non-interactive in\
     racket htop ripgrep git vim tig tmux make curl wl-clipboard \
     fish libgccjit-devel libgccjit0 gcc-c++ fd man-pages-posix coreutils-doc emacs-x11 opam gsettings-desktop-schemas \
     # For python
-    pyenv python311-virtualenv python311-pipx python311-Pygments \
+    pyenv python314-virtualenv python314-pipx python314-Pygments \
     # For agda
     gmp-devel zlib-devel \
     # For emacs
-    hunspell enchant emacs-jinx gtk2-metatheme-adwaita \
+    hunspell libenchant-2-2 enchant-2-backend-hunspell emacs-jinx gtk2-metatheme-adwaita \
     # For texlive
     texlive-collection-basic texlive-bbm texlive-wrapfig texlive-ulem texlive-capt-of texlive-minted texlive-mathtools texlive-collection-fontsextra texlive-savesym texlive-xargs \
     texlive-mathpartir texlive-pgfplots texlive-cancel texlive-luacode texlive-luacode texlive-biber texlive-cleveref texlive-synctex-bin texlive-enumitem texlive-ebproof \
