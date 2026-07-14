@@ -91,4 +91,5 @@
   - entr
   - ncurses-devel
   - typst
+  - fd-fish-completion
   name: other

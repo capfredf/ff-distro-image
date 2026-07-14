@@ -33,4 +33,4 @@ RUN env ZYPP_PCK_PRELOAD=1 zypper --non-interactive in\
     texlive-tex-gyre-math texlive-hardwrap texlive-babel-english texlive-textcase texlive-doclicense texlive-multirow texlive-threeparttable texlive-datetime2 texlive-fnpct texlive-beamer \
     texlive-beamertheme-metropolis texlive-tikzmark texlive-wasysym texlive-hyphenat texlive-parskip texlive-tikzfill texlive-thmtools texlive-epigraph \
     # For other
-    entr ncurses-devel typst && zypper clean -a
+    entr ncurses-devel typst fd-fish-completion && zypper clean -a
