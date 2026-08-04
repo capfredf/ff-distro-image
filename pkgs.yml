@@ -92,4 +92,5 @@
   - ncurses-devel
   - typst
   - fd-fish-completion
+  - zig
   name: other
