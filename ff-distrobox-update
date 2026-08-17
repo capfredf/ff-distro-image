@@ -1,0 +1,2 @@
+#! /bin/sh
+podman pull opensuse/distrobox && podman build -t ff .
