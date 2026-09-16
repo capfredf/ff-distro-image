@@ -25,6 +25,7 @@
   - python313-virtualenv
   - python313-pipx
   - python313-Pygments
+  - python313-keyring
   name: python
 - pkgs:
   - gmp-devel
@@ -93,5 +94,4 @@
   - typst
   - fd-fish-completion
   - zig
-  - python313-keyring
   name: other
