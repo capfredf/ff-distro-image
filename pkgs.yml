@@ -22,9 +22,9 @@
   name: base
 - pkgs:
   - pyenv
-  - python314-virtualenv
-  - python314-pipx
-  - python314-Pygments
+  - python313-virtualenv
+  - python313-pipx
+  - python313-Pygments
   name: python
 - pkgs:
   - gmp-devel
@@ -93,4 +93,5 @@
   - typst
   - fd-fish-completion
   - zig
+  - python313-keyring
   name: other
