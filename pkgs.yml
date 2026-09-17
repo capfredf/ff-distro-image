@@ -94,4 +94,5 @@
   - typst
   - fd-fish-completion
   - zig
+  - python313-Markdown
   name: other
