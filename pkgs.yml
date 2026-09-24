@@ -26,6 +26,8 @@
   - python313-pipx
   - python313-Pygments
   - python313-keyring
+  - python313-keyring
+  - python313-Markdown
   name: python
 - pkgs:
   - gmp-devel
@@ -94,5 +96,4 @@
   - typst
   - fd-fish-completion
   - zig
-  - python313-Markdown
   name: other

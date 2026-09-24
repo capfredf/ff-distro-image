@@ -21,7 +21,7 @@ RUN env ZYPP_PCK_PRELOAD=1 zypper --non-interactive in\
     racket htop ripgrep git vim tig tmux make curl wl-clipboard \
     fish libgccjit-devel libgccjit0 gcc-c++ fd man-pages-posix coreutils-doc emacs-x11 opam gsettings-desktop-schemas \
     # For python
-    pyenv python313-virtualenv python313-pipx python313-Pygments python313-keyring \
+    pyenv python313-virtualenv python313-pipx python313-Pygments python313-keyring python313-keyring python313-Markdown \
     # For agda
     gmp-devel zlib-devel \
     # For emacs
@@ -33,4 +33,4 @@ RUN env ZYPP_PCK_PRELOAD=1 zypper --non-interactive in\
     texlive-tex-gyre-math texlive-hardwrap texlive-babel-english texlive-textcase texlive-doclicense texlive-multirow texlive-threeparttable texlive-datetime2 texlive-fnpct texlive-beamer \
     texlive-beamertheme-metropolis texlive-tikzmark texlive-wasysym texlive-hyphenat texlive-parskip texlive-tikzfill texlive-thmtools texlive-epigraph \
     # For other
-    entr ncurses-devel typst fd-fish-completion zig python313-Markdown && zypper clean -a
+    entr ncurses-devel typst fd-fish-completion zig && zypper clean -a
