@@ -7,12 +7,12 @@ FROM opensuse/distrobox
 
 # Define labels according to https://en.opensuse.org/Building_derived_containers
 # labelprefix=org.opensuse.ff-distrobox
-LABEL org.opencontainers.image.title="FF distrobox"
-LABEL org.opencontainers.image.description="This contains nano %PKG_VERSION%"
-LABEL org.opencontainers.image.version="%PKG_VERSION%.%RELEASE%"
-LABEL org.opensuse.reference="registry.opensuse.org/opensuse/ff-distrobox:%PKG_VERSION%.%RELEASE%"
-LABEL org.openbuildservice.disturl="%DISTURL%"
-LABEL org.opencontainers.image.created="%BUILDTIME%"
+# LABEL org.opencontainers.image.title="FF distrobox"
+# LABEL org.opencontainers.image.description="This contains nano %PKG_VERSION%"
+# LABEL org.opencontainers.image.version="%PKG_VERSION%.%RELEASE%"
+# LABEL org.opensuse.reference="registry.opensuse.org/opensuse/ff-distrobox:%PKG_VERSION%.%RELEASE%"
+# LABEL org.openbuildservice.disturl="%DISTURL%"
+# LABEL org.opencontainers.image.created="%BUILDTIME%"
 # endlabelprefix
 
 # Fill the image with content and clean the cache(s)
