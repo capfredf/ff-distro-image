@@ -96,4 +96,5 @@
   - typst
   - fd-fish-completion
   - zig
+  - poppler-tools
   name: other

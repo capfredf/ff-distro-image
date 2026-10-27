@@ -1,8 +1,19 @@
 # Specify the license of the container build description (see also the LICENSE file)
 # SPDX-License-Identifier: MIT
 # Define the names/tags of the container
+#!BuildTag: opensuse/ff-distrobox:latest opensuse/ff-distrobox:%PKG_VERSION% opensuse/ff-distrobox:%PKG_VERSION%.%RELEASE%
 
 FROM opensuse/distrobox
+
+# Define labels according to https://en.opensuse.org/Building_derived_containers
+# labelprefix=org.opensuse.ff-distrobox
+# LABEL org.opencontainers.image.title="FF distrobox"
+# LABEL org.opencontainers.image.description="This contains nano %PKG_VERSION%"
+# LABEL org.opencontainers.image.version="%PKG_VERSION%.%RELEASE%"
+# LABEL org.opensuse.reference="registry.opensuse.org/opensuse/ff-distrobox:%PKG_VERSION%.%RELEASE%"
+# LABEL org.openbuildservice.disturl="%DISTURL%"
+# LABEL org.opencontainers.image.created="%BUILDTIME%"
+# endlabelprefix
 
 # Fill the image with content and clean the cache(s)
 RUN env ZYPP_PCK_PRELOAD=1 zypper --non-interactive in\
@@ -22,4 +33,4 @@ RUN env ZYPP_PCK_PRELOAD=1 zypper --non-interactive in\
     texlive-tex-gyre-math texlive-hardwrap texlive-babel-english texlive-textcase texlive-doclicense texlive-multirow texlive-threeparttable texlive-datetime2 texlive-fnpct texlive-beamer \
     texlive-beamertheme-metropolis texlive-tikzmark texlive-wasysym texlive-hyphenat texlive-parskip texlive-tikzfill texlive-thmtools texlive-epigraph \
     # For other
-    entr ncurses-devel typst fd-fish-completion zig && zypper clean -a
+    entr ncurses-devel typst fd-fish-completion zig poppler-tools && zypper clean -a
