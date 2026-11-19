@@ -97,4 +97,5 @@
   - fd-fish-completion
   - zig
   - poppler-tools
+  - ImageMagick
   name: other
