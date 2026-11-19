@@ -98,4 +98,5 @@
   - zig
   - poppler-tools
   - ImageMagick
+  - ImageMagick-extra
   name: other
